@@ -1,10 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using CartingApp;
+using Xunit;
+using FluentAssertions;
 
 namespace TestCartingApp
 {
-    class ProductFixture
+    public class ProductFixture
     {
+        [Fact]
+        public void Test_Creating_Product_Object_With_Category()
+        {
+            var categoryType = Category.Clothing;
+            var product = new Product(categoryType)
+            {
+                name = "Game Of Thrones",
+                price = 100
+            };
+            product.category.Should().Be(categoryType);
+        }
+
     }
 }

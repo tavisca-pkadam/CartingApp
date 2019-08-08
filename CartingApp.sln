@@ -9,14 +9,24 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestCartingApp", "TestCarti
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		AppConfig|Any CPU = AppConfig|Any CPU
+		ConfigApp|Any CPU = ConfigApp|Any CPU
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79C12D72-3D74-48F1-81C2-8FAEF525E2CC}.AppConfig|Any CPU.ActiveCfg = AppConfig|Any CPU
+		{79C12D72-3D74-48F1-81C2-8FAEF525E2CC}.AppConfig|Any CPU.Build.0 = AppConfig|Any CPU
+		{79C12D72-3D74-48F1-81C2-8FAEF525E2CC}.ConfigApp|Any CPU.ActiveCfg = ConfigApp|Any CPU
+		{79C12D72-3D74-48F1-81C2-8FAEF525E2CC}.ConfigApp|Any CPU.Build.0 = ConfigApp|Any CPU
 		{79C12D72-3D74-48F1-81C2-8FAEF525E2CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{79C12D72-3D74-48F1-81C2-8FAEF525E2CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79C12D72-3D74-48F1-81C2-8FAEF525E2CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79C12D72-3D74-48F1-81C2-8FAEF525E2CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F2C70F6-3849-4913-A106-909AB580A8E1}.AppConfig|Any CPU.ActiveCfg = AppConfig|Any CPU
+		{9F2C70F6-3849-4913-A106-909AB580A8E1}.AppConfig|Any CPU.Build.0 = AppConfig|Any CPU
+		{9F2C70F6-3849-4913-A106-909AB580A8E1}.ConfigApp|Any CPU.ActiveCfg = ConfigApp|Any CPU
+		{9F2C70F6-3849-4913-A106-909AB580A8E1}.ConfigApp|Any CPU.Build.0 = ConfigApp|Any CPU
 		{9F2C70F6-3849-4913-A106-909AB580A8E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9F2C70F6-3849-4913-A106-909AB580A8E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F2C70F6-3849-4913-A106-909AB580A8E1}.Release|Any CPU.ActiveCfg = Release|Any CPU

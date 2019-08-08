@@ -4,21 +4,12 @@ using System.Text;
 
 namespace CartingApp
 {
-    public enum CategoryTypes
+    public enum Category
     {
-        dairy,
-        entertainment,
-        books,
-        cloathing
-    }
-
-    public class Category
-    {
-        IDiscount discount;
-
-        public Category(DiscountType discountType )
-        {
-            discount =  Discount.SelectDiscountType(discountType);
-        }
+        Sport = 5,
+        Education = 10,
+        Dairy = 15,
+        Clothing = 10,
+        Electronics = 25
     }
 }

@@ -11,15 +11,17 @@ namespace TestCartingApp
         [Fact]
         public void CalculateTotalCost_Method_Calculates_Total_Price_Of_Product()
         {
-            var product = new Product();
-            product.name = "Book";
-            product.price = 90;
+            var categoryType = Category.Clothing;
+            var product = new Product(categoryType)
+            {
+                name = "Game Of Thrones",
+                price = 100
+            };
 
             var cartItem = new CartItem(product);
             cartItem.quantity = 10;
 
-            cartItem.CalculateTotalCost();
-            cartItem.totalCost.Should().Be(900);
+            cartItem.product.price.Should().Be(100);
         }
     }
 }

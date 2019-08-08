@@ -9,87 +9,160 @@ namespace TestCartingApp
 {
     public class CartFixture
     {
-        Cart cart;
-
-        public CartFixture()
-        {
-            cart = new Cart();   
-        }
         [Fact]
-        public void TestAddProduct()
+        public void TestCreateCartObject()
         {
-            var product = new Product();
-            product.name = "Book";
-            product.price = 90;
+            var cart = new Cart(DiscountType.FixedDiscount, 100);
+            cart.Should().NotBeNull();
+        }
+
+        [Fact]
+        public void TestAddCartItem()
+        {
+            var categoryType = Category.Clothing;
+            var product = new Product(categoryType)
+            {
+                name = "Game Of Thrones",
+                price = 100
+            };
 
             var cartItem = new CartItem(product);
             cartItem.quantity = 10;
 
-            cart.AddProduct(cartItem);
+            var cart = new Cart(DiscountType.FixedDiscount, 100);
+            cart.AddCartItem(cartItem);
 
 
             cart.cartItemList.Count.Should().Be(1);
 
         }
 
+
         [Fact]
-        public void TestRemoveProduct()
+        public void TestRemoveCartItem()
         {
-            var product = new Product();
-            product.name = "Book";
-            product.price = 90;
+            var categoryType = Category.Clothing;
+            var product = new Product(categoryType)
+            {
+                name = "Game Of Thrones",
+                price = 100
+            };
 
             var cartItem = new CartItem(product);
             cartItem.quantity = 10;
 
-            cart.AddProduct(cartItem);
-            cart.RemoveProduct("Book");
+            var cart = new Cart(DiscountType.FixedDiscount, 100);
+            cart.AddCartItem(cartItem);
 
+            cart.RemoveCartItem("Game Of Thrones");
             cart.cartItemList.Count.Should().Be(0);
+        }
+
+        [Fact]
+        public void TestRemoveCartItemFromEmptyCart()
+        {
+            var cart = new Cart(DiscountType.FixedDiscount, 100);
+            cart.RemoveCartItem("Game Of Thrones");
+            cart.cartItemList.Count.Should().Be(0);
+        }
+
+        [Fact]
+        public void TestGetCartItemByProducName()
+        {
+            var categoryType = Category.Clothing;
+            var product = new Product(categoryType)
+            {
+                name = "Game Of Thrones",
+                price = 100
+            };
+
+            var cartItem = new CartItem(product);
+            cartItem.quantity = 10;
+
+            var cart = new Cart(DiscountType.FixedDiscount, 100);
+            cart.AddCartItem(cartItem);
+
+            cart.GetCartItem(product.name).product.name.Should().Be(product.name);
+        }
+
+        [Fact]
+        public void TestGetCartItemByProducNameNotAdded()
+        {
+            var categoryType = Category.Clothing;
+            var product = new Product(categoryType)
+            {
+                name = "Game Of Thrones",
+                price = 100
+            };
+
+            var cartItem = new CartItem(product);
+            cartItem.quantity = 10;
+
+            var cart = new Cart(DiscountType.FixedDiscount, 100);
+            cart.AddCartItem(cartItem);
+
+            cart.GetCartItem("abc").Should().BeNull();
         }
 
         [Fact]
         public void TestChangeProductQuantity()
         {
-            var product = new Product();
-            product.name = "Book";
-            product.price = 90;
+            var categoryType = Category.Clothing;
+            var product = new Product(categoryType)
+            {
+                name = "Game Of Thrones",
+                price = 100
+            };
 
             var cartItem = new CartItem(product);
             cartItem.quantity = 10;
 
-            cart.AddProduct(cartItem);
-            cart.ChangeProductQuantity("Book", 200);
+            var cart = new Cart(DiscountType.FixedDiscount, 100);
+            cart.AddCartItem(cartItem);
+
+            cart.ChangeProductQuantity("Game Of Thrones", 200);
+
+            cart.GetCartItem("Game Of Thrones").quantity.Should().Be(210);
         }
 
         [Fact]
-        public void TestBillCart()
+        public void TestChangeProductQuantityOfNotAddedProductName()
         {
-            var product = new Product();
-            product.name = "Book";
-            product.price = 90;
+            var categoryType = Category.Clothing;
+            var product = new Product(categoryType)
+            {
+                name = "Game Of Thrones",
+                price = 100
+            };
 
             var cartItem = new CartItem(product);
             cartItem.quantity = 10;
 
-            cart.AddProduct(cartItem);
+            var cart = new Cart(DiscountType.FixedDiscount, 100);
+            cart.AddCartItem(cartItem);
 
-            cart.BillCart();
-            cart.bill.totalBill.Should().Be(900);
+            cart.AddCartItem(cartItem);
+            cart.ChangeProductQuantity("Game Of Thrones", 200);
         }
+
 
         [Fact]
         public void ListCartItemProductName()
         {
-            var product = new Product();
-            product.name = "Book";
-            product.price = 90;
+            var categoryType = Category.Clothing;
+            var product = new Product(categoryType)
+            {
+                name = "Game Of Thrones",
+                price = 100
+            };
+
             var cartItem = new CartItem(product);
             cartItem.quantity = 10;
 
-            cart.AddProduct(cartItem);
+            var cart = new Cart(DiscountType.FixedDiscount, 100);
+            cart.AddCartItem(cartItem);
 
-            cart.ListCartItemProductName().Find(x => x == product.name).Should().Be("Book");
+            cart.ListCartItemProductName().Find(x => x == product.name).Should().Be("Game Of Thrones");
 
         }
     }
