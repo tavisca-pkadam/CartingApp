@@ -21,6 +21,7 @@ namespace TestCartingApp
             var product = new Product();
             product.name = "Book";
             product.price = 90;
+
             var cartItem = new CartItem(product);
             cartItem.quantity = 10;
 
@@ -37,6 +38,7 @@ namespace TestCartingApp
             var product = new Product();
             product.name = "Book";
             product.price = 90;
+
             var cartItem = new CartItem(product);
             cartItem.quantity = 10;
 
@@ -52,6 +54,7 @@ namespace TestCartingApp
             var product = new Product();
             product.name = "Book";
             product.price = 90;
+
             var cartItem = new CartItem(product);
             cartItem.quantity = 10;
 
@@ -65,6 +68,7 @@ namespace TestCartingApp
             var product = new Product();
             product.name = "Book";
             product.price = 90;
+
             var cartItem = new CartItem(product);
             cartItem.quantity = 10;
 

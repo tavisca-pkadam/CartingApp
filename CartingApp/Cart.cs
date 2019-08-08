@@ -9,11 +9,12 @@ namespace CartingApp
         public List<CartItem> cartItemList;
         public Bill bill;
 
-        public Cart()
+        public Cart(DiscountType discountType)
         {
-            bill = new Bill();
+            bill = new Bill(discountType);
             cartItemList = new List<CartItem>();
         }
+
         public void AddProduct(CartItem cartItem)
         {
             cartItemList.Add(cartItem);
