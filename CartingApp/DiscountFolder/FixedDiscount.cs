@@ -10,7 +10,7 @@ namespace CartingApp
 
         public FixedDiscount()
         {
-            this.DiscountPercentage = Config.discount;
+            this.DiscountPercentage = 10;
         }
 
         public double GetDiscountAmount(List<CartItem> cartItems)

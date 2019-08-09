@@ -30,7 +30,7 @@ namespace TestCartingApp
         [Fact]
         public void TestGetDiscountPercentage()
         {
-            var variableDiscount = new VariableDiscount(10);
+            var variableDiscount = new VariableDiscount();
 
             variableDiscount.DiscountPercentage.Should().Be(10);
         }
@@ -39,7 +39,7 @@ namespace TestCartingApp
         [Fact]
         public void TestGetDiscountAmount()
         {
-            var variableDiscount = new VariableDiscount(10);
+            var variableDiscount = new VariableDiscount();
 
             variableDiscount.GetDiscountAmount(cartItems).Should().Be(90);
         }

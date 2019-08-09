@@ -12,7 +12,7 @@ namespace CartingApp
         public Cart(DiscountType discountType, double discount)
         {
             cartItemList = new List<CartItem>();
-            invoice = new Invoice(this.cartItemList, DiscountType.CategoryDiscount, discount);
+            invoice = new Invoice(this.cartItemList, DiscountType.CategoryDiscount);
         }
 
         public void AddCartItem(CartItem cartItem)

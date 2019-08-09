@@ -13,7 +13,7 @@ namespace CartingApp
 
     public static class DiscountStrategy
     {
-        public static IDiscount GetInstance(DiscountType discountType, double discountPercentage)
+        public static IDiscount GetInstance(DiscountType discountType)
         {
             if (discountType == DiscountType.CategoryDiscount)
             {
@@ -21,7 +21,7 @@ namespace CartingApp
             }
             if (discountType == DiscountType.VariableDiscount)
             {
-                return new VariableDiscount(discountPercentage);
+                return new VariableDiscount();
             }
             if (discountType == DiscountType.FixedDiscount)
             {

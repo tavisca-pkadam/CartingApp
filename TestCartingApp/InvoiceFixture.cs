@@ -30,14 +30,14 @@ namespace TestCartingApp
         [Fact]
         public void TestCreatingInvoiceWithFixedDiscount()
         {
-            var invoice = new Invoice(cartItems, DiscountType.FixedDiscount, 100);
+            var invoice = new Invoice(cartItems, DiscountType.FixedDiscount);
             invoice.Should().NotBeNull();
         }
 
         [Fact]
         public void TestCalculateTotalBill()
         {
-            var invoice = new Invoice(cartItems, DiscountType.FixedDiscount, 100);
+            var invoice = new Invoice(cartItems, DiscountType.FixedDiscount);
             invoice.CalculateTotal();
             invoice.Total.Should().Be(1000);
         }
@@ -45,7 +45,7 @@ namespace TestCartingApp
         [Fact]
         public void TestCalculateDiscount()
         {
-            var invoice = new Invoice(cartItems, DiscountType.FixedDiscount, 100);
+            var invoice = new Invoice(cartItems, DiscountType.FixedDiscount);
             invoice.CalculateDiscount();
             invoice.Discount.Should().Be(90);
         }
@@ -53,8 +53,8 @@ namespace TestCartingApp
         [Fact]
         public void TestCalculateDiscountedTotal()
         {
-            var invoice = new Invoice(cartItems, DiscountType.FixedDiscount, 100);
-            
+            var invoice = new Invoice(cartItems, DiscountType.FixedDiscount);
+
             invoice.CalculateTotal();
             invoice.CalculateDiscount();
             invoice.CalculateDiscountedTotal();

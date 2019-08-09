@@ -8,10 +8,10 @@ namespace CartingApp
     {
         public double DiscountPercentage { get; private set; }
 
-        public VariableDiscount(double discountPercentage)
+        public VariableDiscount()
         {
 
-            DiscountPercentage = discountPercentage;
+            DiscountPercentage = Configuration.GetConfigurationDiscount();
         }
 
         public double GetDiscountAmount(List<CartItem> cartItems)

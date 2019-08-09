@@ -14,14 +14,14 @@ namespace CartingApp
         public List<CartItem> cartItems;
         public DiscountType DiscountTypeUsed {get; private set;}
 
-        public Invoice(List<CartItem> cartItems, DiscountType discountType, double discountPercentage)
+        public Invoice(List<CartItem> cartItems, DiscountType discountType)
         {
             Total = 0;
             TotalWithDiscount = 0;
             Discount = 0;
             this.cartItems = cartItems;
             DiscountTypeUsed = discountType;
-            discount = DiscountStrategy.GetInstance(discountType, discountPercentage);
+            discount = DiscountStrategy.GetInstance(discountType);
         }
 
         public void Update()
