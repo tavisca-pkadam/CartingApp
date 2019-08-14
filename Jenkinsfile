@@ -3,9 +3,15 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Hello World'
+                echo 'Build'
                 sh 'dotnet build CartingApp.sln'
             }
+        stage('Test') {
+            steps {
+                echo 'Test'
+                sh 'dotnet test CartingApp.sln'
+            }
+        
         }
     }
 }
