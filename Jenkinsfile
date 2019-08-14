@@ -10,7 +10,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Test'
-                sh 'dotnet test TestCartingApp\TestCartingApp.csproj'
+                sh 'dotnet test TestCartingApp/TestCartingApp.csproj'
             }
     }
 }
