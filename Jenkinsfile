@@ -9,7 +9,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Test'
-                sh 'dotnet test CartingApp.sln'
+                sh 'dotnet test TestCartingApp\TestCartingApp.csproj'
             }
         
         }
