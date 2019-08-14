@@ -12,5 +12,6 @@ pipeline {
                 echo 'Test'
                 sh 'dotnet test TestCartingApp/TestCartingApp.csproj'
             }
+        }
     }
 }
