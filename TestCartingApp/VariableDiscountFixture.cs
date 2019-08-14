@@ -13,7 +13,7 @@ namespace TestCartingApp
 
         public VariableDiscountFixture()
         {
-            var categoryType = Category.Clothing;
+            var categoryType = CategoryWithDiscount.Clothing;
             var product = new Product(categoryType)
             {
                 name = "Game Of Thrones",
@@ -35,7 +35,6 @@ namespace TestCartingApp
             variableDiscount.DiscountPercentage.Should().Be(10);
         }
 
-        
         [Fact]
         public void TestGetDiscountAmount()
         {

@@ -11,7 +11,7 @@ namespace TestCartingApp
         [Fact]
         public void CalculateTotalCost_Method_Calculates_Total_Price_Of_Product()
         {
-            var categoryType = Category.Clothing;
+            var categoryType = CategoryWithDiscount.Clothing;
             var product = new Product(categoryType)
             {
                 name = "Game Of Thrones",

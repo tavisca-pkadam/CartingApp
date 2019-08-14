@@ -13,7 +13,7 @@ namespace TestCartingApp
 
         public InvoiceFixture()
         {
-            var categoryType = Category.Clothing;
+            var categoryType = CategoryWithDiscount.Clothing;
             var product = new Product(categoryType)
             {
                 name = "Game Of Thrones",

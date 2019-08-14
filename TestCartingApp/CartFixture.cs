@@ -19,7 +19,7 @@ namespace TestCartingApp
         [Fact]
         public void TestAddCartItem()
         {
-            var categoryType = Category.Clothing;
+            var categoryType = CategoryWithDiscount.Clothing;
             var product = new Product(categoryType)
             {
                 name = "Game Of Thrones",
@@ -41,7 +41,7 @@ namespace TestCartingApp
         [Fact]
         public void TestRemoveCartItem()
         {
-            var categoryType = Category.Clothing;
+            var categoryType = CategoryWithDiscount.Clothing;
             var product = new Product(categoryType)
             {
                 name = "Game Of Thrones",
@@ -69,7 +69,7 @@ namespace TestCartingApp
         [Fact]
         public void TestGetCartItemByProducName()
         {
-            var categoryType = Category.Clothing;
+            var categoryType = CategoryWithDiscount.Clothing;
             var product = new Product(categoryType)
             {
                 name = "Game Of Thrones",
@@ -88,7 +88,7 @@ namespace TestCartingApp
         [Fact]
         public void TestGetCartItemByProducNameNotAdded()
         {
-            var categoryType = Category.Clothing;
+            var categoryType = CategoryWithDiscount.Clothing;
             var product = new Product(categoryType)
             {
                 name = "Game Of Thrones",
@@ -107,7 +107,7 @@ namespace TestCartingApp
         [Fact]
         public void TestChangeProductQuantity()
         {
-            var categoryType = Category.Clothing;
+            var categoryType = CategoryWithDiscount.Clothing;
             var product = new Product(categoryType)
             {
                 name = "Game Of Thrones",
@@ -128,7 +128,7 @@ namespace TestCartingApp
         [Fact]
         public void TestChangeProductQuantityOfNotAddedProductName()
         {
-            var categoryType = Category.Clothing;
+            var categoryType = CategoryWithDiscount.Clothing;
             var product = new Product(categoryType)
             {
                 name = "Game Of Thrones",
@@ -149,7 +149,7 @@ namespace TestCartingApp
         [Fact]
         public void ListCartItemProductName()
         {
-            var categoryType = Category.Clothing;
+            var categoryType = CategoryWithDiscount.Clothing;
             var product = new Product(categoryType)
             {
                 name = "Game Of Thrones",

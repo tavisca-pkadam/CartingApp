@@ -9,11 +9,11 @@ namespace CartingApp
         public string name;
         public double price;
 
-        public Category category;
+        public CategoryWithDiscount categoryWithDiscount;
 
-        public Product(Category categoryType)
+        public Product(CategoryWithDiscount categoryType)
         {
-            this.category = categoryType;
+            this.categoryWithDiscount = categoryType;
         }
     }
 }

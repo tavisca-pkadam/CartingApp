@@ -12,13 +12,13 @@ namespace TestCartingApp
         [Fact]
         public void Test_Creating_Product_Object_With_Category()
         {
-            var categoryType = Category.Clothing;
+            var categoryType = CategoryWithDiscount.Clothing;
             var product = new Product(categoryType)
             {
                 name = "Game Of Thrones",
                 price = 100
             };
-            product.category.Should().Be(categoryType);
+            product.categoryWithDiscount.Should().Be(categoryType);
         }
 
     }

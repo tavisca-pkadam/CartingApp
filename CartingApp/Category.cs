@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CartingApp
 {
-    public enum Category
+    public enum CategoryWithDiscount
     {
         Sport = 5,
         Education = 10,
