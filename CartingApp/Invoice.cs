@@ -16,9 +16,6 @@ namespace CartingApp
 
         public Invoice(List<CartItem> cartItems, DiscountType discountType)
         {
-            Total = 0;
-            TotalWithDiscount = 0;
-            Discount = 0;
             this.cartItems = cartItems;
             DiscountTypeUsed = discountType;
             discount = DiscountStrategy.GetInstance(discountType);
@@ -36,9 +33,9 @@ namespace CartingApp
         public void CalculateTotal()
         {
             cartItems
-                .ForEach(x =>
+                .ForEach(cartItem =>
                 {
-                    Total += (x.product.price * x.quantity);
+                    Total += (cartItem.product.price * cartItem.quantity);
                 });
         }
 

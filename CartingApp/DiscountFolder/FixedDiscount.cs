@@ -18,9 +18,9 @@ namespace CartingApp
             double discountAmount = 0;
 
             cartItems
-                .ForEach(x =>
+                .ForEach(cartItem =>
                 {
-                    discountAmount += x.product.price - (x.product.price * DiscountPercentage / 100);
+                    discountAmount += cartItem.product.price - (cartItem.product.price * DiscountPercentage / 100);
                 });
             return discountAmount;
         }

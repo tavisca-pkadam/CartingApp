@@ -25,7 +25,7 @@ namespace CartingApp
             try
             {
                 cartItemList.Remove(
-                    cartItemList.Find(x => x.product.name == productName)
+                    cartItemList.Find(cartItem => cartItem.product.name == productName)
                 );
             }
             catch (System.Exception)
@@ -38,7 +38,7 @@ namespace CartingApp
         {
             try
             {
-                return cartItemList.Find(x => x.product.name == productName);
+                return cartItemList.Find(cartItem => cartItem.product.name == productName);
 
             }
             catch (System.Exception)
@@ -53,7 +53,7 @@ namespace CartingApp
 
             cartItemList
                 .ForEach(
-                    x => cartProductNames.Add(x.product.name)
+                    cartItem => cartProductNames.Add(cartItem.product.name)
                 );
             return cartProductNames;
         }
@@ -63,7 +63,7 @@ namespace CartingApp
             try
             {
                 cartItemList
-                .Find(x => x.product.name == productName)
+                .Find(cartItem => cartItem.product.name == productName)
                 .quantity += quantity;
             }
             catch (System.Exception)

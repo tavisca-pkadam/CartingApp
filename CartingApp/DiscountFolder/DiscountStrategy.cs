@@ -4,12 +4,6 @@ using System.Text;
 
 namespace CartingApp
 {
-    public enum DiscountType
-    {
-        FixedDiscount,
-        VariableDiscount,
-        CategoryDiscount
-    }
 
     public static class DiscountStrategy
     {

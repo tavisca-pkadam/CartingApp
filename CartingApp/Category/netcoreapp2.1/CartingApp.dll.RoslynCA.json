@@ -1,0 +1,1209 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "2.10.0.0",
+        "fileVersion": "2.10.0.0 (45b37117)",
+        "semanticVersion": "2.10.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Cart'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/Cart.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 18,
+                  "endLine": 7,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Cart.cartItemList'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/Cart.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 31,
+                  "endLine": 9,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Cart.invoice'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/Cart.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 24,
+                  "endLine": 10,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Cart.Cart(DiscountType, double)'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/Cart.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 16,
+                  "endLine": 12,
+                  "endColumn": 20
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Cart.AddCartItem(CartItem)'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/Cart.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 21,
+                  "endLine": 18,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Cart.RemoveCartItem(string)'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/Cart.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 21,
+                  "endLine": 23,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Cart.GetCartItem(string)'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/Cart.cs",
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 25,
+                  "endLine": 37,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Cart.ListCartItemProductName()'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/Cart.cs",
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 29,
+                  "endLine": 50,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Cart.ChangeProductQuantity(string, int)'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/Cart.cs",
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 21,
+                  "endLine": 61,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'CartItem'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/CartItem.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 18,
+                  "endLine": 7,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'CartItem.product'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/CartItem.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 24,
+                  "endLine": 9,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'CartItem.quantity'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/CartItem.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 20,
+                  "endLine": 10,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'CartItem.CartItem(Product)'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/CartItem.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 16,
+                  "endLine": 12,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'CategoryWithDiscount'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/CategoryWithDiscount.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 17,
+                  "endLine": 7,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'CategoryWithDiscount.Sport'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/CategoryWithDiscount.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 9,
+                  "endLine": 9,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'CategoryWithDiscount.Education'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/CategoryWithDiscount.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 9,
+                  "endLine": 10,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'CategoryWithDiscount.Dairy'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/CategoryWithDiscount.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 9,
+                  "endLine": 11,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'CategoryWithDiscount.Clothing'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/CategoryWithDiscount.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 9,
+                  "endLine": 12,
+                  "endColumn": 17
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'CategoryWithDiscount.Electronics'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/CategoryWithDiscount.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 9,
+                  "endLine": 13,
+                  "endColumn": 20
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Configuration'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/Configuration.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 18,
+                  "endLine": 11,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Configuration.GetConfigurationDiscount()'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/Configuration.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 30,
+                  "endLine": 14,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'CategoryDiscount'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/DiscountFolder/CategoryDiscount.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 18,
+                  "endLine": 8,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'CategoryDiscount.GetDiscountAmount(List<CartItem>)'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/DiscountFolder/CategoryDiscount.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 23,
+                  "endLine": 11,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'DiscountStrategy'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/DiscountFolder/DiscountStrategy.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 25,
+                  "endLine": 8,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'DiscountStrategy.GetInstance(DiscountType)'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/DiscountFolder/DiscountStrategy.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 33,
+                  "endLine": 10,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'DiscountType'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/DiscountFolder/DiscountType.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 17,
+                  "endLine": 3,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'DiscountType.FixedDiscount'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/DiscountFolder/DiscountType.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 9,
+                  "endLine": 5,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'DiscountType.VariableDiscount'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/DiscountFolder/DiscountType.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 9,
+                  "endLine": 6,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'DiscountType.CategoryDiscount'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/DiscountFolder/DiscountType.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 9,
+                  "endLine": 7,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'FixedDiscount'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/DiscountFolder/FixedDiscount.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 18,
+                  "endLine": 7,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'FixedDiscount.DiscountPercentage'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/DiscountFolder/FixedDiscount.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 23,
+                  "endLine": 9,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'FixedDiscount.FixedDiscount()'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/DiscountFolder/FixedDiscount.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 16,
+                  "endLine": 11,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'FixedDiscount.GetDiscountAmount(List<CartItem>)'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/DiscountFolder/FixedDiscount.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 23,
+                  "endLine": 16,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'IDiscount'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/DiscountFolder/IDIscount.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 22,
+                  "endLine": 7,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'IDiscount.GetDiscountAmount(List<CartItem>)'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/DiscountFolder/IDIscount.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 15,
+                  "endLine": 9,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'VariableDiscount'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/DiscountFolder/VariableDiscount.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 18,
+                  "endLine": 7,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'VariableDiscount.DiscountPercentage'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/DiscountFolder/VariableDiscount.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 23,
+                  "endLine": 9,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'VariableDiscount.VariableDiscount()'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/DiscountFolder/VariableDiscount.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 16,
+                  "endLine": 11,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'VariableDiscount.GetDiscountAmount(List<CartItem>)'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/DiscountFolder/VariableDiscount.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 23,
+                  "endLine": 17,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Invoice'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/Invoice.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 18,
+                  "endLine": 8,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Invoice.Total'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/Invoice.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 23,
+                  "endLine": 10,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Invoice.Discount'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/Invoice.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 23,
+                  "endLine": 11,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Invoice.TotalWithDiscount'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/Invoice.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Invoice.discount'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/Invoice.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 26,
+                  "endLine": 13,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Invoice.cartItems'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/Invoice.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 31,
+                  "endLine": 14,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Invoice.DiscountTypeUsed'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/Invoice.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 29,
+                  "endLine": 15,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Invoice.Invoice(List<CartItem>, DiscountType)'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/Invoice.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 16,
+                  "endLine": 17,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Invoice.Update()'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/Invoice.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 21,
+                  "endLine": 24,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Invoice.CalculateTotal()'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/Invoice.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 21,
+                  "endLine": 33,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Invoice.CalculateDiscount()'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/Invoice.cs",
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 21,
+                  "endLine": 42,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Invoice.CalculateDiscountedTotal()'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/Invoice.cs",
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 21,
+                  "endLine": 47,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Product'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/Product.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 18,
+                  "endLine": 7,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Product.name'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/Product.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 23,
+                  "endLine": 9,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Product.price'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/Product.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 23,
+                  "endLine": 10,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Product.categoryWithDiscount'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/Product.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 37,
+                  "endLine": 12,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        },
+        {
+          "ruleId": "CS1591",
+          "level": "warning",
+          "message": "Missing XML comment for publicly visible type or member 'Product.Product(CategoryWithDiscount)'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/pakadam/source/repos/CartingApp/CartingApp/Product.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 16,
+                  "endLine": 14,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 4
+          }
+        }
+      ],
+      "rules": {
+        "CS1591": {
+          "id": "CS1591",
+          "shortDescription": "Missing XML comment for publicly visible type or member",
+          "fullDescription": "The /doc compiler option was specified, but one or more constructs did not have comments.",
+          "defaultLevel": "warning",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
