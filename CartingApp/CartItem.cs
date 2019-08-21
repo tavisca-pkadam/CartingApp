@@ -8,26 +8,12 @@ namespace CartingApp
     {
         public Product product;
         public int quantity;
-        public  double totalCost;
-        public double totalCostOnDiscount;
 
-        public IDiscount discount;
-
-        public CartItem(Product product ,DiscountType discountType)
+        public CartItem(Product product )
         {
             this.product = product;
             quantity = 0;
-            totalCost = 0;
-            discount = Discount.SelectDiscountType(discountType);
         }
 
-
-        public void CalculateTotalCost()
-        {
-            discount.CalculateDiscountOnPrice()
-            this.totalCost = this.product.price * this.quantity;
-        }
-
-       
     }
 }

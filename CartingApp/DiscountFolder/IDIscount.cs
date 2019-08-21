@@ -6,9 +6,7 @@ namespace CartingApp
 {
     public interface IDiscount
     {
-        double CalculateDiscountOnPrice(double total);
-
-        void ChangeDiscountValue(double discountValue);
+       double GetDiscountAmount(List<CartItem> cartItems);
 
     }
 }

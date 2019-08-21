@@ -8,18 +8,12 @@ namespace CartingApp
     {
         public string name;
         public double price;
-        public double dicountedPrice;
 
-        IDiscount discount;
+        public CategoryWithDiscount categoryWithDiscount;
 
-        public Product(DiscountType discountType)
+        public Product(CategoryWithDiscount categoryType)
         {
-            discount = Discount.SelectDiscountType(discountType);
-        }
-
-        public void CalculateDiscount(double discountValue)
-        {
-            this.dicountedPrice = discount.CalculateDiscountOnPrice(price);
+            this.categoryWithDiscount = categoryType;
         }
     }
 }
